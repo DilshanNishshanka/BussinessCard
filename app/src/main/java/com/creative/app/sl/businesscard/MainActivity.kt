@@ -61,14 +61,14 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BusinessCardTitle(modifier: Modifier = Modifier){
 
-    val image = painterResource(id = R.drawable.android_logo)
+    val profileImage = painterResource(id = R.drawable.android_logo)
      Column(
         verticalArrangement = Arrangement.Center,
         modifier = modifier.padding(top = 70.dp)
     ) {
 
         Image(
-            painter = image,
+            painter = profileImage,
             contentDescription = null,
             modifier = Modifier
                 .align(alignment = Alignment.CenterHorizontally)
